@@ -1,0 +1,201 @@
+# ✨ Animated Beam Grid Background
+
+> **From Instagram?** Welcome! This is a free component you can use in your Next.js project.
+
+## 🎥 What is This?
+
+An **animated grid background** with glowing light beams that follows your mouse. Perfect for hero sections and landing pages!
+
+**Features:**
+- 🎨 Interactive (follows your mouse!)
+- 🌙 Dark mode support
+- ⚡ Super smooth (60fps)
+- 🎛️ Easy to customize
+- 📦 No extra packages needed
+
+---
+
+## 🚀 How to Use (3 Steps)
+
+### Step 1: Clone This Branch
+
+```bash
+git clone -b reel-02-beamgrid https://github.com/YOUR_USERNAME/animated-lab.git
+cd animated-lab
+```
+
+### Step 2: Install & Run
+
+```bash
+npm install
+npm run dev
+```
+
+### Step 3: Open Browser
+
+Go to: `http://localhost:3000`
+
+**That's it!** 🎉 You should see the animated grid.
+
+---
+
+## 📁 How to Add to YOUR Project
+
+### Method 1: Copy the Component Folder
+
+1. **Copy** the `src/components/BeamGrid/` folder
+2. **Paste** it into your project's `components/` folder
+3. **Use it** in any page:
+
+```jsx
+import BeamGridBackground from "@/components/BeamGrid/BeamGridBackground";
+
+export default function MyPage() {
+  return (
+    <div className="relative h-screen bg-black">
+      {/* The animated background */}
+      <BeamGridBackground />
+      
+      {/* Your content on top */}
+      <div className="relative z-10 flex h-full items-center justify-center">
+        <h1 className="text-6xl font-bold text-white">
+          Your Heading Here
+        </h1>
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
+## 🎨 Change Colors
+
+Want different colors? Just add these props:
+
+### Cyan (Default)
+```jsx
+<BeamGridBackground />
+```
+
+### Purple
+```jsx
+<BeamGridBackground
+  beamColor="rgba(168, 85, 247, 0.6)"
+  darkBeamColor="rgba(217, 70, 239, 0.8)"
+/>
+```
+
+### Green
+```jsx
+<BeamGridBackground
+  beamColor="rgba(34, 197, 94, 0.7)"
+  darkBeamColor="rgba(74, 222, 128, 0.9)"
+/>
+```
+
+### Pink
+```jsx
+<BeamGridBackground
+  beamColor="rgba(236, 72, 153, 0.6)"
+  darkBeamColor="rgba(244, 114, 182, 0.9)"
+/>
+```
+
+---
+
+## 🎯 Common Uses
+
+### Hero Section
+```jsx
+<div className="relative h-screen">
+  <BeamGridBackground />
+  <div className="relative z-10">
+    {/* Your hero content */}
+  </div>
+</div>
+```
+
+### Feature Section
+```jsx
+<section className="relative min-h-screen bg-black">
+  <BeamGridBackground />
+  <div className="relative z-10 p-20">
+    {/* Your features */}
+  </div>
+</section>
+```
+
+---
+
+## ⚙️ Customization Options
+
+| Option | What it does | Example |
+|--------|--------------|---------|
+| `beamColor` | Beam color (light mode) | `"rgba(0, 180, 255, 0.8)"` |
+| `darkBeamColor` | Beam color (dark mode) | `"rgba(0, 255, 255, 0.8)"` |
+| `beamCount` | Number of beams | `12` (default: 8) |
+| `beamSpeed` | How fast beams move | `0.15` (default: 0.1) |
+| `glowIntensity` | How much glow | `80` (default: 50) |
+| `interactive` | Mouse tracking on/off | `true` or `false` |
+
+### Example with options:
+```jsx
+<BeamGridBackground
+  beamColor="rgba(168, 85, 247, 0.6)"
+  beamCount={15}
+  beamSpeed={0.15}
+  glowIntensity={80}
+/>
+```
+
+
+## 📋 Requirements
+
+Before you start, make sure you have:
+
+- ✅ **Node.js** installed (18.17 or newer)
+- ✅ **Next.js** project (this works with Next.js 15+)
+- ✅ **Tailwind CSS** installed (usually comes with Next.js)
+
+
+Then copy the BeamGrid component into your new project!
+
+---
+
+## 💬 Need Help?
+
+1. **Check the code** - There are comments explaining everything
+2. **Watch the demo** - Run `npm run dev` to see it working
+3. **Ask on GitHub** - Open an issue if you're stuck
+
+---
+
+## 📱 Follow for More
+
+Want more free components like this?
+
+👉 Follow me on Instagram: [@designwith_jn]
+
+I post:
+- Free React/Next.js components
+- Web development tutorials
+- Coding tips & tricks
+
+---
+
+## ⭐ Like This?
+
+If this helped you:
+- Star this repo on GitHub ⭐
+- Share it with friends 🔗
+- Tag me in your projects 📸
+
+---
+
+**Made with ❤️ for the developer community**
+
+**Happy coding!** 🚀
+---
+
+**That's literally it!** Copy this and it works. 🎉
