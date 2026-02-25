@@ -88,8 +88,10 @@ export default function Page() {
 - Tailwind CSS
 - Lucide React Icons integrations.
 
-- 📸 **Instagram:** [@designwith_jn](https://www.instagram.com/designwith_jn)
- Creative Developer & Technical Partner
+📸 **Instagram:** [@designwith_jn](https://www.instagram.com/designwith_jn)
+Creative Developer & Technical Partner
+
+Like this? kindly star the repo.Follow for more Content on instagram [@designwith_jn](https://www.instagram.com/designwith_jn)
 
 ---
 *Developed by Junaid Nawaz.*
