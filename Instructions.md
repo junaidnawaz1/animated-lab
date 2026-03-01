@@ -1,7 +1,7 @@
-#  Interactive Profile Cards Pack
-### 💻 Happy Coding developed by **Junaid Nawaz**
+#Interactive Profile Cards Pack
+### 💻Developed by **Junaid Nawaz**
 
-Welcome to the official source code for **Reel #04**! This project was built to help you level up your UI/UX game using Next.js and Tailwind CSS.
+Welcome to the official source code for **Profile Cards**! This project was built to help you level up your UI/UX game using Next.js and Tailwind CSS.
 
 ---
 
@@ -9,7 +9,6 @@ Welcome to the official source code for **Reel #04**! This project was built to 
 If you find this code helpful, let's stay connected for more "Happy Coding" sessions!
 
 📸 **Instagram (Design & Code):** [@designwith_jn](https://www.instagram.com/designwith_jn)
-
 ---
 
 ## ✨ What's Inside?
