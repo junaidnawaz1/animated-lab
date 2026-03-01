@@ -1,31 +1,30 @@
-# 🚀 Animated UI Lab | Next.js & Motion Development
+#  Interactive Profile Cards Pack
+### 💻 Happy Coding developed by **Junaid Nawaz**
 
-Welcome to my creative production lab. I specialize in bridging the gap between high-end UI/UX design and functional, high-performance web development. 
-
-I build these components to show **Design Agencies** how their Figma designs can come to life using modern tech stacks.
-
----
-
-## 🛠️ Tech Stack
-- **Framework:** Next.js 15+ (App Router)
-- **Styling:** Tailwind CSS 4
-- **Animations:** GSAP, Framer Motion, Lenis Scroll
-- **Icons:** Lucide React
-
-## 📦 Component Library (Reels Source Code)
-Each reel has its own dedicated branch for clean, easy access to the source code:
-
-* **Reel #1: Interactive Bento Grid** → [View Branch](https://github.com/junaidnawaz1/animated-lab/tree/reel-01-bento)
-* *(Next Component coming soon...)*
+Welcome to the official source code for **Reel #04**! This project was built to help you level up your UI/UX game using Next.js and Tailwind CSS.
 
 ---
 
-## 🤝 Agency Partnerships
-**I partner with UI/UX studios as a Technical Lead.** If you design high-end 2D/3D web experiences but need a developer to handle the **MERN backend, API integrations, and complex animations**, let's connect.
+## 🚀 Connect with Me
+If you find this code helpful, let's stay connected for more "Happy Coding" sessions!
 
-- 📸 **Instagram:** [@designwith_jn](https://www.instagram.com/designwith_jn)
-- 💻 **Portfolio:** Built into this Repo
-- 📧 **Role:** Creative Developer & Technical Partner
+📸 **Instagram (Design & Code):** [@designwith_jn](https://www.instagram.com/designwith_jn)
 
 ---
-*Developed by Junaid Nawaz.*
+
+## ✨ What's Inside?
+This pack contains **5 premium card variants** that you can drop into any project:
+1.  **Blue Glow**: The clean, classic scaling card.
+2.  **Purple Spotlight**: A smooth mouse-following glow.
+3.  **Emerald Tilt**: A subtle 3D hover rotation.
+4.  **Amber Magnetic**: A true 3D follow effect that reacts to mouse position.
+5.  **Moody Pixel**: A Glassmorphism design with a top-center floating avatar and magnetic logic.
+
+---
+
+## 🛠️ Tech Stack & Installation
+To run these cards, ensure you have **Tailwind CSS** installed in your Next.js project.
+
+**1. Install Dependencies:**
+```bash
+npm install lucide-react clsx tailwind-merge
